@@ -1,0 +1,72 @@
+body{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1220%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient1221)'%3e%3c/rect%3e%3cpath d='M1464 560L0 560 L0 362.39Q67.14 309.53%2c 120 376.67Q154.61 291.28%2c 240 325.89Q269.61 283.5%2c 312 313.1Q361.01 242.12%2c 432 291.13Q493.24 280.37%2c 504 341.6Q577.85 295.45%2c 624 369.29Q643.25 268.55%2c 744 287.8Q787.22 259.02%2c 816 302.25Q861.99 276.24%2c 888 322.22Q931.3 293.52%2c 960 336.83Q998.29 255.12%2c 1080 293.4Q1127.18 268.58%2c 1152 315.76Q1239.72 283.48%2c 1272 371.2Q1295.79 322.99%2c 1344 346.77Q1394.23 277%2c 1464 327.23z' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M1512 560L0 560 L0 378.54Q64.51 323.06%2c 120 387.57Q191.22 338.79%2c 240 410.02Q253.64 351.66%2c 312 365.31Q384.06 317.37%2c 432 389.43Q481.48 366.91%2c 504 416.4Q516.87 357.27%2c 576 370.14Q603.64 325.78%2c 648 353.42Q706.77 340.19%2c 720 398.96Q794.42 353.38%2c 840 427.8Q872.96 340.76%2c 960 373.72Q1031.13 324.85%2c 1080 395.98Q1151.89 347.88%2c 1200 419.77Q1244.76 392.53%2c 1272 437.29Q1314.73 360.02%2c 1392 402.75Q1443.47 334.22%2c 1512 385.69z' fill='rgba(94%2c 94%2c 94%2c 1)'%3e%3c/path%3e%3cpath d='M1512 560L0 560 L0 464.58Q21.95 414.53%2c 72 436.48Q138.37 382.85%2c 192 449.21Q255.83 441.04%2c 264 504.87Q314.38 435.25%2c 384 485.64Q434.49 416.13%2c 504 466.62Q588.86 431.48%2c 624 516.33Q626.62 446.95%2c 696 449.57Q761.89 395.46%2c 816 461.35Q879.89 453.25%2c 888 517.14Q910.8 467.94%2c 960 490.74Q1007.34 418.08%2c 1080 465.42Q1132.53 397.95%2c 1200 450.48Q1256.26 434.75%2c 1272 491.01Q1304.87 403.88%2c 1392 436.74Q1461.46 386.2%2c 1512 455.66z' fill='rgba(215%2c 215%2c 215%2c 1)'%3e%3c/path%3e%3cpath d='M1560 560L0 560 L0 572.25Q34.74 534.99%2c 72 569.73Q98.34 524.07%2c 144 550.41Q195.65 482.06%2c 264 533.7Q340.05 489.75%2c 384 565.8Q429 538.8%2c 456 583.8Q463.11 518.9%2c 528 526.01Q552.25 478.25%2c 600 502.5Q655.54 486.04%2c 672 541.58Q748.29 497.87%2c 792 574.16Q792.14 502.3%2c 864 502.44Q951.7 470.14%2c 984 557.84Q1053.7 507.55%2c 1104 577.25Q1145.11 546.36%2c 1176 587.46Q1192.39 531.85%2c 1248 548.24Q1290.38 470.63%2c 1368 513.01Q1398.8 471.81%2c 1440 502.61Q1542.3 484.91%2c 1560 587.22z' fill='white'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1220'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='-39.29%25' x2='84.72%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1221'%3e%3cstop stop-color='rgba(14%2c 42%2c 71%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(0%2c 0%2c 0%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+:root {
+    --bg: #1a1e24;
+    --color: #eee;
+    --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+  }
+  .bone {
+    text-decoration: none;
+    color:#262626;--tx:-1.2em;--ty:-1.3em;--s:55px;
+    --ty:-1em;
+    --tx:-1em;
+    --s:50px;
+    display: inline-block;
+    text-align: center;
+    background: var(--color);
+    font-weight: bold;
+    padding: 1em 1em 1.03em;
+    margin:2em;
+    line-height: 1;
+    border-radius: 0.4em;
+    position: relative;
+    min-width: 8.23em;
+    font-size: 1.25rem;
+    filter: url('#goo');
+
+}
+
+.bone:before {
+    content: "";
+    position: absolute;
+    top:var(--ty);  
+    bottom:var(--ty);
+    left:0;
+    right:0;
+    background: 
+      radial-gradient(farthest-side,var(--color) 98%,transparent 100%) top    left,
+      radial-gradient(farthest-side,var(--color) 98%,transparent 100%) top    right,
+      radial-gradient(farthest-side,var(--color) 98%,transparent 100%) bottom left,
+      radial-gradient(farthest-side,var(--color) 98%,transparent 100%) bottom right;
+    background-size: 0 0;
+    background-repeat:no-repeat;
+    transition:0.7s;
+    background-size: var(--s) var(--s);
+    left:var(--tx);
+    right:var(--tx);
+}
+@keyframes border {
+    0%{
+        outline: #262626 4px solid;
+        border-radius:30px;
+    }
+    50%{
+        outline: #a8a8a8 4px solid;
+        border-radius:70px;
+    }
+    100%{
+        outline: #262626 4px solid;
+        border-radius:30px;
+    }
+}
+#resultado {
+    font-weight: bold;
+    font-size: 6rem;
+    text-align: center;
+    top:-150px;
+  }
